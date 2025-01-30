@@ -15,7 +15,7 @@ A simple web-based food ordering application where users can select food items, 
 - Auto-refresh after 15 seconds to simulate a new session.
 
 ## 🔗 Demo Link
-[Food Ordering Promises Task]()
+[Food Ordering Promises Task](https://naveen-kumarj.github.io/food-ordering-promises/)
 
 ## 📂 Project Structure
 ```
