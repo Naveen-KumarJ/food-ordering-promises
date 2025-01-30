@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="status-text">Welcome to Burger King 😃</h2>
+        <div class="image-div"></div>
+        <div class="food-items">
+            <label for="burger">Burger
+                <input type="checkbox" name="burger" id="burger">
+            </label>
+            <label for="fries">Fries
+                <input type="checkbox" name="fries" id="fries">
+            </label>
+            <label for="pizza">Pizza
+                <input type="checkbox" name="Pizza" id="pizza">
+            </label>
+            <label for="drink">Drink
+                <input type="checkbox" name="drink" id="drink">
+            </label>
+        </div>
+        <button id="order-food">Order Food</button>
+    </div>
+    <h3 id="order-id-text">Order ID: <span id="order-id">null</span></h3>
+
+    <script src="./index.js"></script>
+</body>
+</html>
